@@ -1,4 +1,4 @@
- console.log("Wello World!!")
+
 
 var inputSalario = document.querySelector('#ganho-mes')
 var inputHoras = document.querySelector('#horas-dia')

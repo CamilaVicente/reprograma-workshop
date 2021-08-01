@@ -6,18 +6,76 @@
     <title>Workshop - Desafio</title>
     <link rel="stylesheet" type="text/css" href="css/desafio.css" />
   </head>
+
   <body>
-    <label for="valor-hora">Valor Hora</label>
-    <input type="number" id="valor-hora" />
+            
+    <main class="principal">
 
-    <label for="horas-projeto">Horas Projeto</label>
-    <input type="number" id="horas-projeto" />
+      <h1 class="cabecalho__titulo">Calculadora Freelancer</h1>
 
-    <span id="resposta">Resposta</span>
-    <button onclick="calcular()">Calcular Projeto</button>
+      <div class="content">
 
-    <a href="index.html">Voltar</a>
+        <div class="card">
+
+          <div class="card-content">
+
+            <div class="conteudo">
+              
+            <label  for="valor-hora">Valor Hora</label>
+            <input type="number" id="valor-hora" placeholder="R$ --"/>
+
+            </div>
+
+            <div class="conteudo">
+
+            <label  for="horas-projeto">Horas Projeto</label>
+            <input type="number" id="horas-projeto" placeholder="Total de horas" />
+
+            </div>
+
+           
+            <div class="conteudo">
+
+              <span id="resposta">R$0,00</span>
+
+            </div>
+
+            
+
+          </div>
+          
+            <button class="button" onclick="calcular()">Calcular Projeto</button>
+           
+            <footer class="rodape">
+
+            <a href="index.html">Voltar</a>
+            
+            </footer>
+
+
+         
+
+          
+
+          
+            
+
+
+
+        </div>
+
+        
+
+
+
+      </div> 
+    
+        
+        
+    </main>
 
     <script type="text/javascript" src="js/desafio.js"></script>
+
   </body>
 </html>
+<!--Fazer calculo total do valor do serviço-->
